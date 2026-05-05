@@ -54,7 +54,8 @@ MODEL_CONFIGS = {
         "channel_mult": [2, 2, 2],
         "conv_resample": False,
         "dims": 2,
-        "num_classes": None,
+        # "num_classes": None,
+        "num_classes": 10, # comment to do unconditional
         "use_checkpoint": False,
         "num_heads": 1,
         "num_head_channels": -1,
